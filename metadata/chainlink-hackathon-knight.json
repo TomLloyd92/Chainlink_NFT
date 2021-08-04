@@ -1,0 +1,19 @@
+{
+    "name":  "Yeet",
+    "description": "defender against flash loans",
+    "image": "https://ipfs.io/ipfs/QmPVTGG7E9Ts3JsBhKP9u7Jqcfmpxv7JAyD8vZ7asw13n2?filename=shoveKnight.png",
+    "attributes":[
+        {
+            "trait_type": "Strength",
+            "value": 78
+        },
+        {
+            "trait_type": "Speed",
+            "value": 93
+        },
+        {
+            "trait_type": "Stamina",
+            "value": 81
+        }
+    ]
+}
