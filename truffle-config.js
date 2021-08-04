@@ -16,6 +16,11 @@ module.exports = {
       port: 7545,
       network_id: '*',
     },
+    rinkeby: {
+      provider: () => { return new HDWalletProvider(mnemonic,url)},
+      network_id: '4',
+      skipDryRun: true
+    },
     binance_testnet: {
       provider: () => new HDWalletProvider(mnemonic,'https://data-seed-prebsc-1-s1.binance.org:8545'),
       network_id: 97,
@@ -36,4 +41,10 @@ module.exports = {
       version: '0.6.12',
     },
   },
+  api_keys:{
+    etherscan: process.env.ETHERSCAN_API_KEY
+  },
+  plugins:[
+    'truffle-plugin-verify'
+  ]
 }
